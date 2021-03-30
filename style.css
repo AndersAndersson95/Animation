@@ -1,0 +1,34 @@
+@keyframes rainbow {
+    0% {
+        background-color: coral;
+    }
+
+    20% {
+        background-color: hotpink;
+    }
+
+    40% { 
+        background-color: crimson;
+    }
+
+    60% {
+        background-color: teal;
+    }
+
+    80% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color:blueviolet;
+    }
+}
+    
+
+.block {
+    width: 300px;
+    height: 350px;
+    background-color: lightgrey;
+    animation: rainbow 8s;
+    animation-iteration-count: infinite;
+}
